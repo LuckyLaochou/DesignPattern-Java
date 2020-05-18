@@ -3,7 +3,7 @@ package cn.laochou.singleton;
 public class Enums {
 
     public enum InnerEnum {
-        INSTACE;
+        INSTANCE;
         private Enums enums;
 
         InnerEnum() {
@@ -16,7 +16,7 @@ public class Enums {
     }
 
     public static Enums getInstance() {
-        return InnerEnum.INSTACE.getEnums();
+        return InnerEnum.INSTANCE.getEnums();
     }
 
 }
